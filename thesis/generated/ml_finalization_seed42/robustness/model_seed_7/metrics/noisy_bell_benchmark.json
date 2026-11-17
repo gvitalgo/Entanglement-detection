@@ -1,0 +1,305 @@
+{
+  "architectures": [
+    0,
+    10,
+    50
+  ],
+  "artifact_dir": "thesis/generated/ml_finalization_seed42/robustness/model_seed_7",
+  "benchmark": "noisy_bell_state_eq_10",
+  "feature_names": [
+    "Cr(QS)",
+    "Cr(RS)",
+    "Cr(RT)",
+    "Cr(QT)"
+  ],
+  "grid": {
+    "maximum": 1.0,
+    "minimum": 0.0,
+    "num_points": 1001,
+    "spacing": 0.001
+  },
+  "grid_resolution_sensitivity": {
+    "1001": {
+      "grid_spacing": 0.001,
+      "models": {
+        "0": {
+          "ble_grid": 0.09066666666666667,
+          "ble_interpolated": 0.08971452624845971,
+          "crossing_count": 1,
+          "crossing_selection_rule": "first below-to-above threshold crossing along the ordered path",
+          "grid_crossing": 0.424,
+          "grid_spacing_max": 0.0010000000000000009,
+          "grid_spacing_min": 0.0009999999999998899,
+          "ground_truth_transition": 0.3333333333333333,
+          "interpolated_crossing": 0.42304785958179303,
+          "interpolation_rule": "linear interpolation of probability within selected grid bracket",
+          "prediction_threshold": 0.5,
+          "selected_bracket": [
+            0.423,
+            0.424
+          ],
+          "status": "OK",
+          "upward_crossing_count": 1
+        },
+        "10": {
+          "ble_grid": 0.002666666666666706,
+          "ble_interpolated": 0.0018514225247857619,
+          "crossing_count": 1,
+          "crossing_selection_rule": "first below-to-above threshold crossing along the ordered path",
+          "grid_crossing": 0.336,
+          "grid_spacing_max": 0.0010000000000000009,
+          "grid_spacing_min": 0.0009999999999998899,
+          "ground_truth_transition": 0.3333333333333333,
+          "interpolated_crossing": 0.3351847558581191,
+          "interpolation_rule": "linear interpolation of probability within selected grid bracket",
+          "prediction_threshold": 0.5,
+          "selected_bracket": [
+            0.335,
+            0.336
+          ],
+          "status": "OK",
+          "upward_crossing_count": 1
+        },
+        "50": {
+          "ble_grid": 0.0003333333333332966,
+          "ble_interpolated": 0.0011904536982140224,
+          "crossing_count": 1,
+          "crossing_selection_rule": "first below-to-above threshold crossing along the ordered path",
+          "grid_crossing": 0.333,
+          "grid_spacing_max": 0.0010000000000000009,
+          "grid_spacing_min": 0.0009999999999998899,
+          "ground_truth_transition": 0.3333333333333333,
+          "interpolated_crossing": 0.3321428796351193,
+          "interpolation_rule": "linear interpolation of probability within selected grid bracket",
+          "prediction_threshold": 0.5,
+          "selected_bracket": [
+            0.332,
+            0.333
+          ],
+          "status": "OK",
+          "upward_crossing_count": 1
+        }
+      }
+    },
+    "101": {
+      "grid_spacing": 0.01,
+      "models": {
+        "0": {
+          "ble_grid": 0.09666666666666668,
+          "ble_interpolated": 0.08968927697629292,
+          "crossing_count": 1,
+          "crossing_selection_rule": "first below-to-above threshold crossing along the ordered path",
+          "grid_crossing": 0.43,
+          "grid_spacing_max": 0.010000000000000009,
+          "grid_spacing_min": 0.009999999999999898,
+          "ground_truth_transition": 0.3333333333333333,
+          "interpolated_crossing": 0.42302261030962623,
+          "interpolation_rule": "linear interpolation of probability within selected grid bracket",
+          "prediction_threshold": 0.5,
+          "selected_bracket": [
+            0.42,
+            0.43
+          ],
+          "status": "OK",
+          "upward_crossing_count": 1
+        },
+        "10": {
+          "ble_grid": 0.00666666666666671,
+          "ble_interpolated": 0.0017530871449964458,
+          "crossing_count": 1,
+          "crossing_selection_rule": "first below-to-above threshold crossing along the ordered path",
+          "grid_crossing": 0.34,
+          "grid_spacing_max": 0.010000000000000009,
+          "grid_spacing_min": 0.009999999999999898,
+          "ground_truth_transition": 0.3333333333333333,
+          "interpolated_crossing": 0.33508642047832976,
+          "interpolation_rule": "linear interpolation of probability within selected grid bracket",
+          "prediction_threshold": 0.5,
+          "selected_bracket": [
+            0.33,
+            0.34
+          ],
+          "status": "OK",
+          "upward_crossing_count": 1
+        },
+        "50": {
+          "ble_grid": 0.00666666666666671,
+          "ble_interpolated": 0.0004017893988678689,
+          "crossing_count": 1,
+          "crossing_selection_rule": "first below-to-above threshold crossing along the ordered path",
+          "grid_crossing": 0.34,
+          "grid_spacing_max": 0.010000000000000009,
+          "grid_spacing_min": 0.009999999999999898,
+          "ground_truth_transition": 0.3333333333333333,
+          "interpolated_crossing": 0.3337351227322012,
+          "interpolation_rule": "linear interpolation of probability within selected grid bracket",
+          "prediction_threshold": 0.5,
+          "selected_bracket": [
+            0.33,
+            0.34
+          ],
+          "status": "OK",
+          "upward_crossing_count": 1
+        }
+      }
+    }
+  },
+  "ground_truth_rule": "separable for p <= 1/3; entangled for p > 1/3",
+  "models": {
+    "0": {
+      "accuracy": 0.9100899100899101,
+      "ble": 0.08971452624845971,
+      "ble_definition": "absolute pathwise transition-location error after linear interpolation",
+      "ble_details": {
+        "ble_grid": 0.09066666666666667,
+        "ble_interpolated": 0.08971452624845971,
+        "crossing_count": 1,
+        "crossing_selection_rule": "first below-to-above threshold crossing along the ordered path",
+        "grid_crossing": 0.424,
+        "grid_spacing_max": 0.0010000000000000009,
+        "grid_spacing_min": 0.0009999999999998899,
+        "ground_truth_transition": 0.3333333333333333,
+        "interpolated_crossing": 0.42304785958179303,
+        "interpolation_rule": "linear interpolation of probability within selected grid bracket",
+        "prediction_threshold": 0.5,
+        "selected_bracket": [
+          0.423,
+          0.424
+        ],
+        "status": "OK",
+        "upward_crossing_count": 1
+      },
+      "confusion_matrix": {
+        "fn": 90,
+        "fp": 0,
+        "tn": 334,
+        "tp": 577
+      },
+      "fn": 90,
+      "fp": 0,
+      "p_star": 0.424,
+      "p_star_error": 0.09066666666666667,
+      "p_star_interpolated": 0.42304785958179303,
+      "samples": 1001,
+      "tn": 334,
+      "tp": 577,
+      "transition_error": 0.09066666666666667,
+      "transition_estimate": 0.424,
+      "type_i_count": 0,
+      "type_i_error": 0,
+      "type_i_error_rate": 0.0,
+      "type_i_rate": 0.0,
+      "type_ii_count": 90,
+      "type_ii_error": 90,
+      "type_ii_error_rate": 0.13493253373313344,
+      "type_ii_rate": 0.13493253373313344
+    },
+    "10": {
+      "accuracy": 0.998001998001998,
+      "ble": 0.0018514225247857619,
+      "ble_definition": "absolute pathwise transition-location error after linear interpolation",
+      "ble_details": {
+        "ble_grid": 0.002666666666666706,
+        "ble_interpolated": 0.0018514225247857619,
+        "crossing_count": 1,
+        "crossing_selection_rule": "first below-to-above threshold crossing along the ordered path",
+        "grid_crossing": 0.336,
+        "grid_spacing_max": 0.0010000000000000009,
+        "grid_spacing_min": 0.0009999999999998899,
+        "ground_truth_transition": 0.3333333333333333,
+        "interpolated_crossing": 0.3351847558581191,
+        "interpolation_rule": "linear interpolation of probability within selected grid bracket",
+        "prediction_threshold": 0.5,
+        "selected_bracket": [
+          0.335,
+          0.336
+        ],
+        "status": "OK",
+        "upward_crossing_count": 1
+      },
+      "confusion_matrix": {
+        "fn": 2,
+        "fp": 0,
+        "tn": 334,
+        "tp": 665
+      },
+      "fn": 2,
+      "fp": 0,
+      "p_star": 0.336,
+      "p_star_error": 0.002666666666666706,
+      "p_star_interpolated": 0.3351847558581191,
+      "samples": 1001,
+      "tn": 334,
+      "tp": 665,
+      "transition_error": 0.002666666666666706,
+      "transition_estimate": 0.336,
+      "type_i_count": 0,
+      "type_i_error": 0,
+      "type_i_error_rate": 0.0,
+      "type_i_rate": 0.0,
+      "type_ii_count": 2,
+      "type_ii_error": 2,
+      "type_ii_error_rate": 0.0029985007496251873,
+      "type_ii_rate": 0.0029985007496251873
+    },
+    "50": {
+      "accuracy": 0.999000999000999,
+      "ble": 0.0011904536982140224,
+      "ble_definition": "absolute pathwise transition-location error after linear interpolation",
+      "ble_details": {
+        "ble_grid": 0.0003333333333332966,
+        "ble_interpolated": 0.0011904536982140224,
+        "crossing_count": 1,
+        "crossing_selection_rule": "first below-to-above threshold crossing along the ordered path",
+        "grid_crossing": 0.333,
+        "grid_spacing_max": 0.0010000000000000009,
+        "grid_spacing_min": 0.0009999999999998899,
+        "ground_truth_transition": 0.3333333333333333,
+        "interpolated_crossing": 0.3321428796351193,
+        "interpolation_rule": "linear interpolation of probability within selected grid bracket",
+        "prediction_threshold": 0.5,
+        "selected_bracket": [
+          0.332,
+          0.333
+        ],
+        "status": "OK",
+        "upward_crossing_count": 1
+      },
+      "confusion_matrix": {
+        "fn": 0,
+        "fp": 1,
+        "tn": 333,
+        "tp": 667
+      },
+      "fn": 0,
+      "fp": 1,
+      "p_star": 0.333,
+      "p_star_error": 0.0003333333333332966,
+      "p_star_interpolated": 0.3321428796351193,
+      "samples": 1001,
+      "tn": 333,
+      "tp": 667,
+      "transition_error": 0.0003333333333332966,
+      "transition_estimate": 0.333,
+      "type_i_count": 1,
+      "type_i_error": 1,
+      "type_i_error_rate": 0.0029940119760479044,
+      "type_i_rate": 0.0029940119760479044,
+      "type_ii_count": 0,
+      "type_ii_error": 0,
+      "type_ii_error_rate": 0.0,
+      "type_ii_rate": 0.0
+    }
+  },
+  "num_points": 1001,
+  "outputs": {
+    "csv": "thesis/generated/ml_finalization_seed42/robustness/model_seed_7/metrics/noisy_bell_benchmark.csv",
+    "json": "thesis/generated/ml_finalization_seed42/robustness/model_seed_7/metrics/noisy_bell_benchmark.json",
+    "plot_pdf": "thesis/generated/ml_finalization_seed42/robustness/model_seed_7/plots/noisy_bell_benchmark.pdf",
+    "plot_png": "thesis/generated/ml_finalization_seed42/robustness/model_seed_7/plots/noisy_bell_benchmark.png"
+  },
+  "pathwise_only": true,
+  "prediction_threshold": 0.5,
+  "state_family": "rho(p)=p|Phi+><Phi+|+(1-p)I_4/4, |Phi+>=(|00>+|11>)/sqrt(2)",
+  "theoretical_threshold": 0.3333333333333333
+}

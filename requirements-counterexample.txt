@@ -1,0 +1,5 @@
+# Standalone counterexample search; no trained models or TensorFlow required.
+numpy==1.26.4
+scipy==1.13.1
+# Optional --plot output (included for the documented public demonstration).
+matplotlib==3.9.2

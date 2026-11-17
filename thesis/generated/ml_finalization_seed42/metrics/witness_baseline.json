@@ -1,0 +1,31 @@
+{
+  "accuracy": 0.4722190476190476,
+  "balanced_accuracy": 0.5245053455288041,
+  "citation": "Bu et al., arXiv:1603.06322; thesis Eq./discussion at main.tex lines 772--775",
+  "confusion_matrix": {
+    "fn": 55417,
+    "fp": 0,
+    "tn": 46727,
+    "tp": 2856
+  },
+  "conversion": "divide each natural-log coherence feature by ln(2)",
+  "f1": 0.09344173796397781,
+  "feature_order": [
+    "Cr(QS)",
+    "Cr(RS)",
+    "Cr(RT)",
+    "Cr(QT)"
+  ],
+  "formula": "Cr(QS)+Cr(RS)+Cr(RT)-Cr(QT) > 4",
+  "input_feature_log_base": "e",
+  "precision": 1.0,
+  "prediction_artifact": "thesis/generated/ml_finalization_seed42/predictions/witness_predictions.npz",
+  "recall": 0.049010691057608156,
+  "scope_caveat": "The mathematical applicability to all separable mixed states remains a thesis-review issue.",
+  "status": "REPRODUCED WITH EXPLICIT NATURAL-LOG-TO-BIT CONVERSION",
+  "threshold": 4.0,
+  "threshold_convention": "strictly greater than 4 labels entangled",
+  "type_i_error_rate": 0.0,
+  "type_ii_error_rate": 0.9509893089423919,
+  "witness_log_base": "2"
+}

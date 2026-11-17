@@ -1,0 +1,229 @@
+{
+  "rows": [
+    {
+      "absolute_difference": 0.0,
+      "explanation": "same fixed artifact and protocol",
+      "metric": "dataset.total_samples",
+      "reproduced_value": 350000,
+      "status": "MATCH",
+      "thesis_value": 350000
+    },
+    {
+      "absolute_difference": 0.0,
+      "explanation": "same fixed artifact and protocol",
+      "metric": "dataset.separable",
+      "reproduced_value": 155757,
+      "status": "MATCH",
+      "thesis_value": 155757
+    },
+    {
+      "absolute_difference": 0.0,
+      "explanation": "same fixed artifact and protocol",
+      "metric": "dataset.entangled",
+      "reproduced_value": 194243,
+      "status": "MATCH",
+      "thesis_value": 194243
+    },
+    {
+      "absolute_difference": 0.0,
+      "explanation": "same fixed artifact and protocol",
+      "metric": "split.train_samples",
+      "reproduced_value": 245000,
+      "status": "MATCH",
+      "thesis_value": 245000
+    },
+    {
+      "absolute_difference": 0.0,
+      "explanation": "same fixed artifact and protocol",
+      "metric": "split.test_samples",
+      "reproduced_value": 105000,
+      "status": "MATCH",
+      "thesis_value": 105000
+    },
+    {
+      "absolute_difference": 4.761857574919759e-12,
+      "explanation": "same fixed artifact and protocol",
+      "metric": "Nh=0.accuracy",
+      "reproduced_value": 0.7535047619047619,
+      "status": "MATCH",
+      "thesis_value": 0.7535047619
+    },
+    {
+      "absolute_difference": 0.0,
+      "explanation": "same fixed artifact and protocol",
+      "metric": "Nh=0.tn",
+      "reproduced_value": 35085,
+      "status": "MATCH",
+      "thesis_value": 35085
+    },
+    {
+      "absolute_difference": 0.0,
+      "explanation": "same fixed artifact and protocol",
+      "metric": "Nh=0.fp",
+      "reproduced_value": 11642,
+      "status": "MATCH",
+      "thesis_value": 11642
+    },
+    {
+      "absolute_difference": 0.0,
+      "explanation": "same fixed artifact and protocol",
+      "metric": "Nh=0.fn",
+      "reproduced_value": 14240,
+      "status": "MATCH",
+      "thesis_value": 14240
+    },
+    {
+      "absolute_difference": 0.0,
+      "explanation": "same fixed artifact and protocol",
+      "metric": "Nh=0.tp",
+      "reproduced_value": 44033,
+      "status": "MATCH",
+      "thesis_value": 44033
+    },
+    {
+      "absolute_difference": 4.761901983840744e-11,
+      "explanation": "same fixed artifact and protocol",
+      "metric": "Nh=5.accuracy",
+      "reproduced_value": 0.905952380952381,
+      "status": "MATCH",
+      "thesis_value": 0.905952381
+    },
+    {
+      "absolute_difference": 0.0,
+      "explanation": "same fixed artifact and protocol",
+      "metric": "Nh=5.tn",
+      "reproduced_value": 43807,
+      "status": "MATCH",
+      "thesis_value": 43807
+    },
+    {
+      "absolute_difference": 0.0,
+      "explanation": "same fixed artifact and protocol",
+      "metric": "Nh=5.fp",
+      "reproduced_value": 2920,
+      "status": "MATCH",
+      "thesis_value": 2920
+    },
+    {
+      "absolute_difference": 0.0,
+      "explanation": "same fixed artifact and protocol",
+      "metric": "Nh=5.fn",
+      "reproduced_value": 6955,
+      "status": "MATCH",
+      "thesis_value": 6955
+    },
+    {
+      "absolute_difference": 0.0,
+      "explanation": "same fixed artifact and protocol",
+      "metric": "Nh=5.tp",
+      "reproduced_value": 51318,
+      "status": "MATCH",
+      "thesis_value": 51318
+    },
+    {
+      "absolute_difference": 1.904765234428396e-11,
+      "explanation": "same fixed artifact and protocol",
+      "metric": "Nh=10.accuracy",
+      "reproduced_value": 0.9716190476190476,
+      "status": "MATCH",
+      "thesis_value": 0.9716190476
+    },
+    {
+      "absolute_difference": 0.0,
+      "explanation": "same fixed artifact and protocol",
+      "metric": "Nh=10.tn",
+      "reproduced_value": 45987,
+      "status": "MATCH",
+      "thesis_value": 45987
+    },
+    {
+      "absolute_difference": 0.0,
+      "explanation": "same fixed artifact and protocol",
+      "metric": "Nh=10.fp",
+      "reproduced_value": 740,
+      "status": "MATCH",
+      "thesis_value": 740
+    },
+    {
+      "absolute_difference": 0.0,
+      "explanation": "same fixed artifact and protocol",
+      "metric": "Nh=10.fn",
+      "reproduced_value": 2240,
+      "status": "MATCH",
+      "thesis_value": 2240
+    },
+    {
+      "absolute_difference": 0.0,
+      "explanation": "same fixed artifact and protocol",
+      "metric": "Nh=10.tp",
+      "reproduced_value": 56033,
+      "status": "MATCH",
+      "thesis_value": 56033
+    },
+    {
+      "absolute_difference": 0.0,
+      "explanation": "same fixed artifact and protocol",
+      "metric": "Nh=50.accuracy",
+      "reproduced_value": 0.9736,
+      "status": "MATCH",
+      "thesis_value": 0.9736
+    },
+    {
+      "absolute_difference": 0.0,
+      "explanation": "same fixed artifact and protocol",
+      "metric": "Nh=50.tn",
+      "reproduced_value": 45710,
+      "status": "MATCH",
+      "thesis_value": 45710
+    },
+    {
+      "absolute_difference": 0.0,
+      "explanation": "same fixed artifact and protocol",
+      "metric": "Nh=50.fp",
+      "reproduced_value": 1017,
+      "status": "MATCH",
+      "thesis_value": 1017
+    },
+    {
+      "absolute_difference": 0.0,
+      "explanation": "same fixed artifact and protocol",
+      "metric": "Nh=50.fn",
+      "reproduced_value": 1755,
+      "status": "MATCH",
+      "thesis_value": 1755
+    },
+    {
+      "absolute_difference": 0.0,
+      "explanation": "same fixed artifact and protocol",
+      "metric": "Nh=50.tp",
+      "reproduced_value": 56518,
+      "status": "MATCH",
+      "thesis_value": 56518
+    },
+    {
+      "absolute_difference": 0.0,
+      "explanation": "same fixed artifact and protocol",
+      "metric": "Nh=0.BLE_grid",
+      "reproduced_value": 0.08966666666666667,
+      "status": "MATCH",
+      "thesis_value": 0.08966666666666667
+    },
+    {
+      "absolute_difference": 5.551115123125783e-17,
+      "explanation": "same fixed artifact and protocol",
+      "metric": "Nh=10.BLE_grid",
+      "reproduced_value": 0.005666666666666709,
+      "status": "MATCH",
+      "thesis_value": 0.005666666666666653
+    },
+    {
+      "absolute_difference": 5.551115123125783e-17,
+      "explanation": "same fixed artifact and protocol",
+      "metric": "Nh=50.BLE_grid",
+      "reproduced_value": 0.002666666666666706,
+      "status": "MATCH",
+      "thesis_value": 0.0026666666666666505
+    }
+  ],
+  "source": "configs/thesis_reported_metrics.json"
+}

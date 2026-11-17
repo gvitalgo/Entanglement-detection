@@ -1,0 +1,60 @@
+{
+  "artifact_dir": "thesis/generated/ml_finalization_seed42/robustness/model_seed_7",
+  "benchmark": "noisy_bell_state_eq_10",
+  "description": "Aggregate classifier metrics for the one-parameter noisy Bell-state family rho(p)=p|psi><psi|+(1-p)I/4 with |psi>=(|00>+|11>)/sqrt(2).",
+  "metrics": {
+    "0": {
+      "accuracy": 0.9100899100899101,
+      "ble": 0.08971452624845971,
+      "fn": 90,
+      "fp": 0,
+      "hidden_neurons": 0,
+      "p_star": 0.424,
+      "p_star_error": 0.09066666666666667,
+      "p_star_interpolated": 0.42304785958179303,
+      "samples": 1001,
+      "tn": 334,
+      "tp": 577,
+      "type_i_count": 0,
+      "type_i_rate": 0.0,
+      "type_ii_count": 90,
+      "type_ii_rate": 0.13493253373313344
+    },
+    "10": {
+      "accuracy": 0.998001998001998,
+      "ble": 0.0018514225247857619,
+      "fn": 2,
+      "fp": 0,
+      "hidden_neurons": 10,
+      "p_star": 0.336,
+      "p_star_error": 0.002666666666666706,
+      "p_star_interpolated": 0.3351847558581191,
+      "samples": 1001,
+      "tn": 334,
+      "tp": 665,
+      "type_i_count": 0,
+      "type_i_rate": 0.0,
+      "type_ii_count": 2,
+      "type_ii_rate": 0.0029985007496251873
+    },
+    "50": {
+      "accuracy": 0.999000999000999,
+      "ble": 0.0011904536982140224,
+      "fn": 0,
+      "fp": 1,
+      "hidden_neurons": 50,
+      "p_star": 0.333,
+      "p_star_error": 0.0003333333333332966,
+      "p_star_interpolated": 0.3321428796351193,
+      "samples": 1001,
+      "tn": 333,
+      "tp": 667,
+      "type_i_count": 1,
+      "type_i_rate": 0.0029940119760479044,
+      "type_ii_count": 0,
+      "type_ii_rate": 0.0
+    }
+  },
+  "num_points": 1001,
+  "theoretical_threshold": 0.3333333333333333
+}

@@ -1,0 +1,53 @@
+[experiment]
+name = "two_qubit_coherence_smoke_test"
+output_dir = "artifacts/smoke_seed42"
+dataset_mode = "verified_artifact"
+dataset_source_dir = "thesis/generated/ml_reproduction_50000/datasets"
+expected_dataset_sha256 = "3d563b789ab0293fbfeed6888b57ddd943d2c6bcac41a4d27f856540d1675cb3"
+
+[basis]
+phi = 0.0
+feature_order = ["Cr(QS)", "Cr(RS)", "Cr(RT)", "Cr(QT)"]
+entropy_log_base = "e"
+
+[dataset]
+seed = 42
+samples_per_family = 50000
+noise_min = 0.0
+noise_max = 1.0
+ppt_tolerance = 1e-10
+
+[training]
+hidden_widths = [0]
+epochs = 1
+batch_size = 256
+learning_rate = 0.001
+test_size = 0.30
+validation_split = 0.20
+early_stopping_patience = 10
+split_seed = 42
+model_seed = 42
+decision_threshold = 0.5
+
+[ble]
+architectures = [0]
+num_points = 101
+ground_truth_transition = 0.3333333333333333
+prediction_threshold = 0.5
+crossing_selection_rule = "first below-to-above threshold crossing along the ordered path"
+interpolation_rule = "linear interpolation of probability within selected grid bracket"
+
+[robustness]
+enabled = false
+architectures = [0]
+model_seeds = [42]
+dataset_seed = 42
+split_seed = 42
+varied_randomness = "none"
+
+[witness]
+enabled = true
+feature_order = ["Cr(QS)", "Cr(RS)", "Cr(RT)", "Cr(QT)"]
+input_log_base = "e"
+threshold_bits = 4.0
+citation = "Bu et al., arXiv:1603.06322; Theorem 2 (product states); thesis Proposition 5.1 (separable states)"

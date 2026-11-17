@@ -1,0 +1,114 @@
+[
+  {
+    "width": 10,
+    "family": "noisy_family_01_10",
+    "n": 15262,
+    "fp": 87,
+    "fn": 68,
+    "accuracy": 0.9898440571353689
+  },
+  {
+    "width": 10,
+    "family": "noisy_family_00_11",
+    "n": 14834,
+    "fp": 84,
+    "fn": 66,
+    "accuracy": 0.9898880949170824
+  },
+  {
+    "width": 10,
+    "family": "random_entangled",
+    "n": 14993,
+    "fp": 0,
+    "fn": 1066,
+    "accuracy": 0.9289001534049223
+  },
+  {
+    "width": 10,
+    "family": "random_separable",
+    "n": 14987,
+    "fp": 11,
+    "fn": 0,
+    "accuracy": 0.9992660305598186
+  },
+  {
+    "width": 10,
+    "family": "random_pure_mixed",
+    "n": 14984,
+    "fp": 558,
+    "fn": 872,
+    "accuracy": 0.9045648691938067
+  },
+  {
+    "width": 10,
+    "family": "noisy_psi_plus",
+    "n": 14983,
+    "fp": 0,
+    "fn": 92,
+    "accuracy": 0.9938597076686911
+  },
+  {
+    "width": 10,
+    "family": "noisy_phi_plus",
+    "n": 14957,
+    "fp": 0,
+    "fn": 76,
+    "accuracy": 0.9949187671324463
+  },
+  {
+    "width": 50,
+    "family": "noisy_family_01_10",
+    "n": 15262,
+    "fp": 36,
+    "fn": 66,
+    "accuracy": 0.9933167343729524
+  },
+  {
+    "width": 50,
+    "family": "noisy_family_00_11",
+    "n": 14834,
+    "fp": 31,
+    "fn": 50,
+    "accuracy": 0.9945395712552245
+  },
+  {
+    "width": 50,
+    "family": "random_entangled",
+    "n": 14993,
+    "fp": 0,
+    "fn": 772,
+    "accuracy": 0.9485093043420263
+  },
+  {
+    "width": 50,
+    "family": "random_separable",
+    "n": 14987,
+    "fp": 386,
+    "fn": 0,
+    "accuracy": 0.9742443450990859
+  },
+  {
+    "width": 50,
+    "family": "random_pure_mixed",
+    "n": 14984,
+    "fp": 564,
+    "fn": 796,
+    "accuracy": 0.9092365189535504
+  },
+  {
+    "width": 50,
+    "family": "noisy_psi_plus",
+    "n": 14983,
+    "fp": 0,
+    "fn": 38,
+    "accuracy": 0.9974637922979377
+  },
+  {
+    "width": 50,
+    "family": "noisy_phi_plus",
+    "n": 14957,
+    "fp": 0,
+    "fn": 33,
+    "accuracy": 0.9977936752022465
+  }
+]

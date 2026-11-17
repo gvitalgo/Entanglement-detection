@@ -1,0 +1,280 @@
+{
+  "aggregate": {
+    "0": {
+      "accuracy": {
+        "mean": 0.7536031746031746,
+        "sample_standard_deviation": 0.0005259983129684717,
+        "values": [
+          0.7535047619047619,
+          0.7531333333333333,
+          0.7541714285714286
+        ]
+      },
+      "balanced_accuracy": {
+        "mean": 0.7534237770934071,
+        "sample_standard_deviation": 0.0004395942022866168,
+        "values": [
+          0.7532418274277042,
+          0.7531043694192643,
+          0.7539251344332529
+        ]
+      },
+      "ble": {
+        "mean": 0.08848859746559505,
+        "sample_standard_deviation": 0.0016053575630870284,
+        "values": [
+          0.08907979123232496,
+          0.08971452624845971,
+          0.08667147491600047
+        ]
+      },
+      "type_i_error_rate": {
+        "mean": 0.24820767436385816,
+        "sample_standard_deviation": 0.0009994473797877584,
+        "values": [
+          0.24914931410105506,
+          0.24715903011107068,
+          0.24831467887944872
+        ]
+      },
+      "type_ii_error_rate": {
+        "mean": 0.24494477144932758,
+        "sample_standard_deviation": 0.0014853923007264376,
+        "values": [
+          0.24436703104353646,
+          0.2466322310504007,
+          0.24383505225404561
+        ]
+      }
+    },
+    "10": {
+      "accuracy": {
+        "mean": 0.9706666666666667,
+        "sample_standard_deviation": 0.001231336865439517,
+        "values": [
+          0.9716190476190476,
+          0.9692761904761905,
+          0.9711047619047619
+        ]
+      },
+      "balanced_accuracy": {
+        "mean": 0.9715210695520876,
+        "sample_standard_deviation": 0.0016069970422281136,
+        "values": [
+          0.9728617870001779,
+          0.9697397216125144,
+          0.9719617000435705
+        ]
+      },
+      "ble": {
+        "mean": 0.00341292774756032,
+        "sample_standard_deviation": 0.0019293478242578843,
+        "values": [
+          0.005569783228069114,
+          0.0018514225247857619,
+          0.002817577489826084
+        ]
+      },
+      "type_i_error_rate": {
+        "mean": 0.02070894058395931,
+        "sample_standard_deviation": 0.005119887464071153,
+        "values": [
+          0.015836668307402574,
+          0.026044899094741798,
+          0.02024525434973356
+        ]
+      },
+      "type_ii_error_rate": {
+        "mean": 0.03624892031186542,
+        "sample_standard_deviation": 0.0020147701430680027,
+        "values": [
+          0.03843975769224169,
+          0.03447565768022927,
+          0.03583134556312529
+        ]
+      }
+    },
+    "50": {
+      "accuracy": {
+        "mean": 0.9748095238095238,
+        "sample_standard_deviation": 0.0012001133733291558,
+        "values": [
+          0.9736,
+          0.976,
+          0.9748285714285714
+        ]
+      },
+      "balanced_accuracy": {
+        "mean": 0.9752980245001376,
+        "sample_standard_deviation": 0.0012348482577453888,
+        "values": [
+          0.9740592089006268,
+          0.9765288668037144,
+          0.9753059977960716
+        ]
+      },
+      "ble": {
+        "mean": 0.0012907979145938182,
+        "sample_standard_deviation": 0.000976615933913029,
+        "values": [
+          0.002313712003502222,
+          0.0011904536982140224,
+          0.00036822804206521065
+        ]
+      },
+      "type_i_error_rate": {
+        "mean": 0.020259521618478965,
+        "sample_standard_deviation": 0.0015536426790691612,
+        "values": [
+          0.021764718471119483,
+          0.0186615875189933,
+          0.020352258865324116
+        ]
+      },
+      "type_ii_error_rate": {
+        "mean": 0.029144429381245746,
+        "sample_standard_deviation": 0.0009229045655742811,
+        "values": [
+          0.03011686372762686,
+          0.028280678873577814,
+          0.029035745542532562
+        ]
+      }
+    }
+  },
+  "policy": {
+    "dataset_seed": 42,
+    "model_seeds": [
+      42,
+      7,
+      2026
+    ],
+    "not_varied": [
+      "generated dataset",
+      "train/test split",
+      "preprocessing fit",
+      "hyperparameters"
+    ],
+    "split_seed": 42,
+    "varied_randomness": "TensorFlow model initialization and minibatch shuffling only"
+  },
+  "rows": [
+    {
+      "accuracy": 0.7535047619047619,
+      "balanced_accuracy": 0.7532418274277042,
+      "ble": 0.08907979123232496,
+      "dataset_seed": 42,
+      "hidden_neurons": 0,
+      "model_seed": 42,
+      "runtime_seconds": 18.19261829194147,
+      "split_seed": 42,
+      "stopping_epoch": 42,
+      "type_i_error_rate": 0.24914931410105506,
+      "type_ii_error_rate": 0.24436703104353646
+    },
+    {
+      "accuracy": 0.9716190476190476,
+      "balanced_accuracy": 0.9728617870001779,
+      "ble": 0.005569783228069114,
+      "dataset_seed": 42,
+      "hidden_neurons": 10,
+      "model_seed": 42,
+      "runtime_seconds": 48.154509707936086,
+      "split_seed": 42,
+      "stopping_epoch": 100,
+      "type_i_error_rate": 0.015836668307402574,
+      "type_ii_error_rate": 0.03843975769224169
+    },
+    {
+      "accuracy": 0.9736,
+      "balanced_accuracy": 0.9740592089006268,
+      "ble": 0.002313712003502222,
+      "dataset_seed": 42,
+      "hidden_neurons": 50,
+      "model_seed": 42,
+      "runtime_seconds": 38.833168375073,
+      "split_seed": 42,
+      "stopping_epoch": 82,
+      "type_i_error_rate": 0.021764718471119483,
+      "type_ii_error_rate": 0.03011686372762686
+    },
+    {
+      "accuracy": 0.7531333333333333,
+      "balanced_accuracy": 0.7531043694192643,
+      "ble": 0.08971452624845971,
+      "dataset_seed": 42,
+      "hidden_neurons": 0,
+      "model_seed": 7,
+      "runtime_seconds": 18.988418707973324,
+      "split_seed": 42,
+      "stopping_epoch": 43,
+      "type_i_error_rate": 0.24715903011107068,
+      "type_ii_error_rate": 0.2466322310504007
+    },
+    {
+      "accuracy": 0.9692761904761905,
+      "balanced_accuracy": 0.9697397216125144,
+      "ble": 0.0018514225247857619,
+      "dataset_seed": 42,
+      "hidden_neurons": 10,
+      "model_seed": 7,
+      "runtime_seconds": 46.23294891708065,
+      "split_seed": 42,
+      "stopping_epoch": 100,
+      "type_i_error_rate": 0.026044899094741798,
+      "type_ii_error_rate": 0.03447565768022927
+    },
+    {
+      "accuracy": 0.976,
+      "balanced_accuracy": 0.9765288668037144,
+      "ble": 0.0011904536982140224,
+      "dataset_seed": 42,
+      "hidden_neurons": 50,
+      "model_seed": 7,
+      "runtime_seconds": 46.73753712500911,
+      "split_seed": 42,
+      "stopping_epoch": 100,
+      "type_i_error_rate": 0.0186615875189933,
+      "type_ii_error_rate": 0.028280678873577814
+    },
+    {
+      "accuracy": 0.7541714285714286,
+      "balanced_accuracy": 0.7539251344332529,
+      "ble": 0.08667147491600047,
+      "dataset_seed": 42,
+      "hidden_neurons": 0,
+      "model_seed": 2026,
+      "runtime_seconds": 19.255457374965772,
+      "split_seed": 42,
+      "stopping_epoch": 44,
+      "type_i_error_rate": 0.24831467887944872,
+      "type_ii_error_rate": 0.24383505225404561
+    },
+    {
+      "accuracy": 0.9711047619047619,
+      "balanced_accuracy": 0.9719617000435705,
+      "ble": 0.002817577489826084,
+      "dataset_seed": 42,
+      "hidden_neurons": 10,
+      "model_seed": 2026,
+      "runtime_seconds": 46.09597325010691,
+      "split_seed": 42,
+      "stopping_epoch": 100,
+      "type_i_error_rate": 0.02024525434973356,
+      "type_ii_error_rate": 0.03583134556312529
+    },
+    {
+      "accuracy": 0.9748285714285714,
+      "balanced_accuracy": 0.9753059977960716,
+      "ble": 0.00036822804206521065,
+      "dataset_seed": 42,
+      "hidden_neurons": 50,
+      "model_seed": 2026,
+      "runtime_seconds": 47.747106416965835,
+      "split_seed": 42,
+      "stopping_epoch": 100,
+      "type_i_error_rate": 0.020352258865324116,
+      "type_ii_error_rate": 0.029035745542532562
+    }
+  ]
+}

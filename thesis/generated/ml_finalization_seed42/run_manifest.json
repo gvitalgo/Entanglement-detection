@@ -1,0 +1,178 @@
+{
+  "ble_summary": "thesis/generated/ml_finalization_seed42/metrics/noisy_bell_benchmark.json",
+  "comparison_status_counts": {
+    "DISCREPANCY": 0,
+    "MATCH": 28
+  },
+  "completed_at_utc": "2026-07-13T09:06:29.548571+00:00",
+  "configuration": {
+    "basis": {
+      "entropy_log_base": "e",
+      "feature_order": [
+        "Cr(QS)",
+        "Cr(RS)",
+        "Cr(RT)",
+        "Cr(QT)"
+      ],
+      "phi": 0.0
+    },
+    "ble": {
+      "architectures": [
+        0,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45,
+        50
+      ],
+      "crossing_selection_rule": "first below-to-above threshold crossing along the ordered path",
+      "ground_truth_transition": 0.3333333333333333,
+      "interpolation_rule": "linear interpolation of probability within selected grid bracket",
+      "num_points": 1001,
+      "prediction_threshold": 0.5
+    },
+    "dataset": {
+      "noise_max": 1.0,
+      "noise_min": 0.0,
+      "ppt_tolerance": 1e-10,
+      "samples_per_family": 50000,
+      "seed": 42
+    },
+    "experiment": {
+      "dataset_mode": "verified_artifact",
+      "dataset_source_dir": "thesis/generated/ml_reproduction_50000/datasets",
+      "expected_dataset_sha256": "3d563b789ab0293fbfeed6888b57ddd943d2c6bcac41a4d27f856540d1675cb3",
+      "name": "two_qubit_coherence_thesis_finalization",
+      "output_dir": "artifacts/thesis_finalization_seed42"
+    },
+    "robustness": {
+      "architectures": [
+        0,
+        10,
+        50
+      ],
+      "dataset_seed": 42,
+      "enabled": true,
+      "model_seeds": [
+        42,
+        7,
+        2026
+      ],
+      "split_seed": 42,
+      "varied_randomness": "TensorFlow model initialization and minibatch shuffling only"
+    },
+    "training": {
+      "batch_size": 256,
+      "decision_threshold": 0.5,
+      "early_stopping_patience": 10,
+      "epochs": 100,
+      "hidden_widths": [
+        0,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45,
+        50
+      ],
+      "learning_rate": 0.001,
+      "model_seed": 42,
+      "split_seed": 42,
+      "test_size": 0.3,
+      "validation_split": 0.2
+    },
+    "witness": {
+      "citation": "Bu et al., arXiv:1603.06322; formula stated in thesis/main.tex lines 772-775",
+      "enabled": true,
+      "feature_order": [
+        "Cr(QS)",
+        "Cr(RS)",
+        "Cr(RT)",
+        "Cr(QT)"
+      ],
+      "input_log_base": "e",
+      "threshold_bits": 4.0
+    }
+  },
+  "configuration_file": "configs/thesis_finalization.toml",
+  "dataset": {
+    "class_counts": {
+      "entangled": 194243,
+      "separable": 155757
+    },
+    "feature_order": [
+      "Cr(QS)",
+      "Cr(RS)",
+      "Cr(RT)",
+      "Cr(QT)"
+    ],
+    "logical_fingerprint_sha256": "532051e0f534eefccf9e1de84ab993aaa84fe74cfb5f87f9ffa0472325d4284e",
+    "path": "thesis/generated/ml_finalization_seed42/datasets/dataset.npz",
+    "sha256": "3d563b789ab0293fbfeed6888b57ddd943d2c6bcac41a4d27f856540d1675cb3",
+    "shape": [
+      350000,
+      4
+    ]
+  },
+  "elapsed_seconds": 743.5039271250134,
+  "environment": {
+    "cpu": {
+      "logical_count": 10,
+      "model": "Apple M1 Pro"
+    },
+    "host": {
+      "machine_model": "MacBookPro18,3",
+      "physical_memory": "16 GB"
+    },
+    "operating_system": {
+      "machine": "arm64",
+      "platform": "macOS-26.4.1-arm64-arm-64bit",
+      "processor": "arm",
+      "release": "25.4.0",
+      "system": "Darwin"
+    },
+    "packages": {
+      "keras": "3.13.2",
+      "matplotlib": "3.9.2",
+      "numpy": "1.26.4",
+      "qutip": "5.2.3",
+      "scikit-learn": "1.5.2",
+      "scipy": "1.13.1",
+      "tensorflow": "2.16.1"
+    },
+    "python": {
+      "executable": ".venv-asif/bin/python",
+      "version": "3.11.3 (main, Apr 19 2023, 18:49:55) [Clang 14.0.6 ]"
+    },
+    "recorded_at_utc": "2026-07-13T09:06:29.942712+00:00",
+    "tensorflow_physical_devices": [
+      "/physical_device:CPU:0"
+    ]
+  },
+  "experiment_name": "two_qubit_coherence_thesis_finalization",
+  "git": {
+    "branch": "thesis-finalization",
+    "commit": "0135409574fe561fe7739381c6ec84298f628da1",
+    "is_dirty": true
+  },
+  "schema_version": 1,
+  "seed_robustness": "thesis/generated/ml_finalization_seed42/metrics/seed_robustness.json",
+  "stage_runtime_seconds": {
+    "ble_benchmark": 2.6211977500934154,
+    "training": 503.1716152080335
+  },
+  "started_at_utc": "2026-07-13T08:54:06.042300+00:00",
+  "thesis_comparison": "thesis/generated/ml_finalization_seed42/metrics/thesis_comparison.json",
+  "training_summary": "thesis/generated/ml_finalization_seed42/metrics/summary.json",
+  "witness_status": "REPRODUCED WITH EXPLICIT NATURAL-LOG-TO-BIT CONVERSION",
+  "witness_summary": "thesis/generated/ml_finalization_seed42/metrics/witness_baseline.json"
+}

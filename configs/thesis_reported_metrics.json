@@ -1,0 +1,21 @@
+{
+  "dataset": {
+    "total_samples": 350000,
+    "separable": 155757,
+    "entangled": 194243,
+    "train_samples": 245000,
+    "test_samples": 105000
+  },
+  "models": {
+    "0": {"accuracy": 0.7535047619, "tn": 35085, "fp": 11642, "fn": 14240, "tp": 44033},
+    "5": {"accuracy": 0.9059523810, "tn": 43807, "fp": 2920, "fn": 6955, "tp": 51318},
+    "10": {"accuracy": 0.9716190476, "tn": 45987, "fp": 740, "fn": 2240, "tp": 56033},
+    "50": {"accuracy": 0.9736000000, "tn": 45710, "fp": 1017, "fn": 1755, "tp": 56518}
+  },
+  "ble_grid": {
+    "0": 0.08966666666666667,
+    "10": 0.005666666666666653,
+    "50": 0.0026666666666666505
+  },
+  "source": "Values manually reported in thesis/main.tex and audited against thesis/generated/ml_reproduction_50000."
+}

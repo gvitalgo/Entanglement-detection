@@ -1,0 +1,44 @@
+{
+  "basis_config": {
+    "phi": 0.0
+  },
+  "class_counts": {
+    "entangled": 194243,
+    "separable": 155757
+  },
+  "created_at": "2026-03-14T22:58:13.724064+00:00",
+  "dataset_config": {
+    "bell_phi_plus": 50000,
+    "bell_psi_plus": 50000,
+    "noise_max": 1.0,
+    "noise_min": 0.0,
+    "random_entangled": 50000,
+    "random_pure_mixed": 50000,
+    "random_separable": 50000,
+    "samples_family_00_11": 50000,
+    "samples_family_01_10": 50000,
+    "seed": 42,
+    "total_samples": 350000
+  },
+  "family_counts": {
+    "noisy_family_00_11": 50000,
+    "noisy_family_01_10": 50000,
+    "noisy_phi_plus": 50000,
+    "noisy_psi_plus": 50000,
+    "random_entangled": 50000,
+    "random_pure_mixed": 50000,
+    "random_separable": 50000
+  },
+  "feature_names": [
+    "Cr(QS)",
+    "Cr(RS)",
+    "Cr(RT)",
+    "Cr(QT)"
+  ],
+  "path_config": {
+    "output_dir": "thesis/generated/ml_reproduction_50000",
+    "raw_state_limit_per_family": 0,
+    "save_raw_states": false
+  },
+  "total_samples": 350000
+}

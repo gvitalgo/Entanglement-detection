@@ -1,0 +1,894 @@
+{
+  "schema_version": 1,
+  "method": "Analytically restricted deterministic Bell-diagonal entropy-matching search",
+  "provenance": "The original pair was derived analytically, then root-solved and verified; this grid search was added for reproducible exploration.",
+  "scope": "The chosen basis family; any fixed phase via a matching local rotation. Numerical residuals supplement the exact proof.",
+  "environment": {
+    "python": "3.11.3",
+    "numpy": "1.26.4",
+    "scipy": "1.13.1"
+  },
+  "source_sha256": {
+    "scripts/search_coherence_counterexamples.py": "8682d51c9de0b2578be925036559807918f785fce3231a99a4693432d9d23a8a",
+    "asif_reproduction/counterexample.py": "2d3c7ab6bc79f9ec8b7c16eb1acee2cfe159d1888627f0a80af68baa2c21d5ec"
+  },
+  "feature_order": [
+    "Cr(QS)",
+    "Cr(RS)",
+    "Cr(RT)",
+    "Cr(QT)"
+  ],
+  "entropy_units": "nats",
+  "canonical": {
+    "pair_sum": 0.6,
+    "margin": 0.01,
+    "t": 0.0791782021441604,
+    "bracket": [
+      0.0,
+      0.1
+    ],
+    "endpoint_entropy_differences": [
+      0.03222085856763823,
+      -0.020103955808816742
+    ],
+    "entangled_weights": [
+      0.51,
+      0.08999999999999998,
+      0.2,
+      0.2
+    ],
+    "separable_weights": [
+      0.49,
+      0.10999999999999997,
+      0.2791782021441604,
+      0.12082179785583962
+    ],
+    "feature_max_abs_difference": 2.220446049250313e-16,
+    "entangled_pt_min": -0.010000000000000009,
+    "separable_pt_min": 0.009999999999999988
+  },
+  "exact_endpoint_certificate": {
+    "f_zero_positive": true,
+    "f_one_tenth_negative": true
+  },
+  "attempts": 28,
+  "collisions_found": 28,
+  "search_grid": {
+    "pair_sum_percent": [
+      56,
+      60,
+      64,
+      68,
+      72,
+      76,
+      80
+    ],
+    "margin_percent": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "bracket_upper_fraction_of_tail": 0.95
+  },
+  "candidates": [
+    {
+      "pair_sum": 0.56,
+      "margin": 0.01,
+      "t": 0.09510146104955612,
+      "bracket": [
+        0.0,
+        0.20899999999999996
+      ],
+      "endpoint_entropy_differences": [
+        0.04249731180303207,
+        -0.21104843402283002
+      ],
+      "entangled_weights": [
+        0.51,
+        0.05000000000000005,
+        0.21999999999999997,
+        0.21999999999999997
+      ],
+      "separable_weights": [
+        0.49,
+        0.07000000000000005,
+        0.3151014610495561,
+        0.12489853895044385
+      ],
+      "feature_max_abs_difference": 2.220446049250313e-16,
+      "entangled_pt_min": -0.010000000000000009,
+      "separable_pt_min": 0.010000000000000031
+    },
+    {
+      "pair_sum": 0.56,
+      "margin": 0.02,
+      "t": 0.13254597785601682,
+      "bracket": [
+        0.0,
+        0.20899999999999996
+      ],
+      "endpoint_entropy_differences": [
+        0.08556669953696328,
+        -0.16797904628889881
+      ],
+      "entangled_weights": [
+        0.52,
+        0.04000000000000005,
+        0.21999999999999997,
+        0.21999999999999997
+      ],
+      "separable_weights": [
+        0.48,
+        0.08000000000000006,
+        0.3525459778560168,
+        0.08745402214398315
+      ],
+      "feature_max_abs_difference": 2.220446049250313e-16,
+      "entangled_pt_min": -0.01999999999999999,
+      "separable_pt_min": 0.019999999999999962
+    },
+    {
+      "pair_sum": 0.56,
+      "margin": 0.03,
+      "t": 0.1600887367685426,
+      "bracket": [
+        0.0,
+        0.20899999999999996
+      ],
+      "endpoint_entropy_differences": [
+        0.12989349807868034,
+        -0.12365224774718175
+      ],
+      "entangled_weights": [
+        0.53,
+        0.030000000000000054,
+        0.21999999999999997,
+        0.21999999999999997
+      ],
+      "separable_weights": [
+        0.47,
+        0.09000000000000005,
+        0.3800887367685426,
+        0.05991126323145737
+      ],
+      "feature_max_abs_difference": 2.220446049250313e-16,
+      "entangled_pt_min": -0.03,
+      "separable_pt_min": 0.029999999999999995
+    },
+    {
+      "pair_sum": 0.56,
+      "margin": 0.04,
+      "t": 0.18237005315991595,
+      "bracket": [
+        0.0,
+        0.20899999999999996
+      ],
+      "endpoint_entropy_differences": [
+        0.17648077707151866,
+        -0.07706496875434365
+      ],
+      "entangled_weights": [
+        0.54,
+        0.020000000000000052,
+        0.21999999999999997,
+        0.21999999999999997
+      ],
+      "separable_weights": [
+        0.46,
+        0.10000000000000006,
+        0.4023700531599159,
+        0.03762994684008403
+      ],
+      "feature_max_abs_difference": 2.220446049250313e-16,
+      "entangled_pt_min": -0.04000000000000001,
+      "separable_pt_min": 0.03999999999999998
+    },
+    {
+      "pair_sum": 0.6,
+      "margin": 0.01,
+      "t": 0.0791782021441603,
+      "bracket": [
+        0.0,
+        0.19
+      ],
+      "endpoint_entropy_differences": [
+        0.03222085856763823,
+        -0.1982752740013276
+      ],
+      "entangled_weights": [
+        0.51,
+        0.08999999999999998,
+        0.2,
+        0.2
+      ],
+      "separable_weights": [
+        0.49,
+        0.10999999999999997,
+        0.27917820214416034,
+        0.12082179785583971
+      ],
+      "feature_max_abs_difference": 4.440892098500626e-16,
+      "entangled_pt_min": -0.010000000000000009,
+      "separable_pt_min": 0.009999999999999953
+    },
+    {
+      "pair_sum": 0.6,
+      "margin": 0.02,
+      "t": 0.11051869821012412,
+      "bracket": [
+        0.0,
+        0.19
+      ],
+      "endpoint_entropy_differences": [
+        0.06463677378638155,
+        -0.1658593587825843
+      ],
+      "entangled_weights": [
+        0.52,
+        0.07999999999999997,
+        0.2,
+        0.2
+      ],
+      "separable_weights": [
+        0.48,
+        0.11999999999999998,
+        0.3105186982101241,
+        0.08948130178987589
+      ],
+      "feature_max_abs_difference": 0.0,
+      "entangled_pt_min": -0.020000000000000018,
+      "separable_pt_min": 0.01999999999999995
+    },
+    {
+      "pair_sum": 0.6,
+      "margin": 0.03,
+      "t": 0.13359468623797513,
+      "bracket": [
+        0.0,
+        0.19
+      ],
+      "endpoint_entropy_differences": [
+        0.09745563534276913,
+        -0.1330404972261967
+      ],
+      "entangled_weights": [
+        0.53,
+        0.06999999999999998,
+        0.2,
+        0.2
+      ],
+      "separable_weights": [
+        0.47,
+        0.12999999999999998,
+        0.33359468623797517,
+        0.06640531376202488
+      ],
+      "feature_max_abs_difference": 2.220446049250313e-16,
+      "entangled_pt_min": -0.030000000000000002,
+      "separable_pt_min": 0.03
+    },
+    {
+      "pair_sum": 0.6,
+      "margin": 0.04,
+      "t": 0.1522130419034065,
+      "bracket": [
+        0.0,
+        0.19
+      ],
+      "endpoint_entropy_differences": [
+        0.1309138847672715,
+        -0.09958224780169411
+      ],
+      "entangled_weights": [
+        0.54,
+        0.05999999999999998,
+        0.2,
+        0.2
+      ],
+      "separable_weights": [
+        0.46,
+        0.13999999999999999,
+        0.3522130419034065,
+        0.0477869580965935
+      ],
+      "feature_max_abs_difference": 0.0,
+      "entangled_pt_min": -0.04000000000000001,
+      "separable_pt_min": 0.03999999999999998
+    },
+    {
+      "pair_sum": 0.64,
+      "margin": 0.01,
+      "t": 0.06690495957085385,
+      "bracket": [
+        0.0,
+        0.17099999999999999
+      ],
+      "endpoint_entropy_differences": [
+        0.025475012919867535,
+        -0.1819715063922016
+      ],
+      "entangled_weights": [
+        0.51,
+        0.13,
+        0.18,
+        0.18
+      ],
+      "separable_weights": [
+        0.49,
+        0.15000000000000002,
+        0.24690495957085384,
+        0.11309504042914614
+      ],
+      "feature_max_abs_difference": 2.220446049250313e-16,
+      "entangled_pt_min": -0.010000000000000009,
+      "separable_pt_min": 0.010000000000000028
+    },
+    {
+      "pair_sum": 0.64,
+      "margin": 0.02,
+      "t": 0.09351375167469933,
+      "bracket": [
+        0.0,
+        0.17099999999999999
+      ],
+      "endpoint_entropy_differences": [
+        0.051044850842749456,
+        -0.15640166846931947
+      ],
+      "entangled_weights": [
+        0.52,
+        0.12000000000000001,
+        0.18,
+        0.18
+      ],
+      "separable_weights": [
+        0.48,
+        0.16,
+        0.2735137516746993,
+        0.08648624832530066
+      ],
+      "feature_max_abs_difference": 0.0,
+      "entangled_pt_min": -0.019999999999999983,
+      "separable_pt_min": 0.019999999999999962
+    },
+    {
+      "pair_sum": 0.64,
+      "margin": 0.03,
+      "t": 0.11318078144326724,
+      "bracket": [
+        0.0,
+        0.17099999999999999
+      ],
+      "endpoint_entropy_differences": [
+        0.07680755289716101,
+        -0.1306389664149079
+      ],
+      "entangled_weights": [
+        0.53,
+        0.11000000000000001,
+        0.18,
+        0.18
+      ],
+      "separable_weights": [
+        0.47,
+        0.17,
+        0.2931807814432672,
+        0.06681921855673276
+      ],
+      "feature_max_abs_difference": 2.220446049250313e-16,
+      "entangled_pt_min": -0.030000000000000016,
+      "separable_pt_min": 0.03
+    },
+    {
+      "pair_sum": 0.64,
+      "margin": 0.04,
+      "t": 0.12911473099537205,
+      "bracket": [
+        0.0,
+        0.17099999999999999
+      ],
+      "endpoint_entropy_differences": [
+        0.10286793563781971,
+        -0.10457858367424944
+      ],
+      "entangled_weights": [
+        0.54,
+        0.1,
+        0.18,
+        0.18
+      ],
+      "separable_weights": [
+        0.46,
+        0.18000000000000002,
+        0.309114730995372,
+        0.05088526900462795
+      ],
+      "feature_max_abs_difference": 2.220446049250313e-16,
+      "entangled_pt_min": -0.040000000000000036,
+      "separable_pt_min": 0.03999999999999998
+    },
+    {
+      "pair_sum": 0.68,
+      "margin": 0.01,
+      "t": 0.05657256845584507,
+      "bracket": [
+        0.0,
+        0.15199999999999997
+      ],
+      "endpoint_entropy_differences": [
+        0.020441989063132215,
+        -0.16395491699204046
+      ],
+      "entangled_weights": [
+        0.51,
+        0.17000000000000004,
+        0.15999999999999998,
+        0.15999999999999998
+      ],
+      "separable_weights": [
+        0.49,
+        0.19000000000000006,
+        0.21657256845584505,
+        0.1034274315441549
+      ],
+      "feature_max_abs_difference": 2.220446049250313e-16,
+      "entangled_pt_min": -0.010000000000000064,
+      "separable_pt_min": 0.010000000000000026
+    },
+    {
+      "pair_sum": 0.68,
+      "margin": 0.02,
+      "t": 0.07915548758820322,
+      "bracket": [
+        0.0,
+        0.15199999999999997
+      ],
+      "endpoint_entropy_differences": [
+        0.04093798927412151,
+        -0.14345891678105116
+      ],
+      "entangled_weights": [
+        0.52,
+        0.16000000000000006,
+        0.15999999999999998,
+        0.15999999999999998
+      ],
+      "separable_weights": [
+        0.48,
+        0.20000000000000004,
+        0.2391554875882032,
+        0.08084451241179676
+      ],
+      "feature_max_abs_difference": 4.440892098500626e-16,
+      "entangled_pt_min": -0.020000000000000018,
+      "separable_pt_min": 0.020000000000000007
+    },
+    {
+      "pair_sum": 0.68,
+      "margin": 0.03,
+      "t": 0.09590243374442535,
+      "bracket": [
+        0.0,
+        0.15199999999999997
+      ],
+      "endpoint_entropy_differences": [
+        0.06154315962230972,
+        -0.12285374643286273
+      ],
+      "entangled_weights": [
+        0.53,
+        0.15000000000000005,
+        0.15999999999999998,
+        0.15999999999999998
+      ],
+      "separable_weights": [
+        0.47,
+        0.21000000000000005,
+        0.25590243374442534,
+        0.06409756625557463
+      ],
+      "feature_max_abs_difference": 0.0,
+      "entangled_pt_min": -0.029999999999999992,
+      "separable_pt_min": 0.030000000000000054
+    },
+    {
+      "pair_sum": 0.68,
+      "margin": 0.04,
+      "t": 0.10952138426474262,
+      "bracket": [
+        0.0,
+        0.15199999999999997
+      ],
+      "endpoint_entropy_differences": [
+        0.08231502916703115,
+        -0.1020818768881413
+      ],
+      "entangled_weights": [
+        0.54,
+        0.14000000000000004,
+        0.15999999999999998,
+        0.15999999999999998
+      ],
+      "separable_weights": [
+        0.46,
+        0.22000000000000006,
+        0.2695213842647426,
+        0.05047861573525736
+      ],
+      "feature_max_abs_difference": 0.0,
+      "entangled_pt_min": -0.04,
+      "separable_pt_min": 0.03999999999999998
+    },
+    {
+      "pair_sum": 0.72,
+      "margin": 0.01,
+      "t": 0.04747836066669698,
+      "bracket": [
+        0.0,
+        0.133
+      ],
+      "endpoint_entropy_differences": [
+        0.016425168873413387,
+        -0.1449221239248626
+      ],
+      "entangled_weights": [
+        0.51,
+        0.20999999999999996,
+        0.14,
+        0.14
+      ],
+      "separable_weights": [
+        0.49,
+        0.22999999999999998,
+        0.18747836066669699,
+        0.09252163933330304
+      ],
+      "feature_max_abs_difference": 2.220446049250313e-16,
+      "entangled_pt_min": -0.010000000000000009,
+      "separable_pt_min": 0.010000000000000009
+    },
+    {
+      "pair_sum": 0.72,
+      "margin": 0.02,
+      "t": 0.06648659071565295,
+      "bracket": [
+        0.0,
+        0.133
+      ],
+      "endpoint_entropy_differences": [
+        0.03288378385384583,
+        -0.12846350894443015
+      ],
+      "entangled_weights": [
+        0.52,
+        0.19999999999999998,
+        0.14,
+        0.14
+      ],
+      "separable_weights": [
+        0.48,
+        0.23999999999999996,
+        0.20648659071565295,
+        0.07351340928434706
+      ],
+      "feature_max_abs_difference": 6.661338147750939e-16,
+      "entangled_pt_min": -0.02,
+      "separable_pt_min": 0.019999999999999962
+    },
+    {
+      "pair_sum": 0.72,
+      "margin": 0.03,
+      "t": 0.08062098507957345,
+      "bracket": [
+        0.0,
+        0.133
+      ],
+      "endpoint_entropy_differences": [
+        0.049409791203470554,
+        -0.11193750159480542
+      ],
+      "entangled_weights": [
+        0.53,
+        0.18999999999999997,
+        0.14,
+        0.14
+      ],
+      "separable_weights": [
+        0.47,
+        0.24999999999999997,
+        0.22062098507957345,
+        0.05937901492042656
+      ],
+      "feature_max_abs_difference": 2.220446049250313e-16,
+      "entangled_pt_min": -0.03000000000000001,
+      "separable_pt_min": 0.03000000000000004
+    },
+    {
+      "pair_sum": 0.72,
+      "margin": 0.04,
+      "t": 0.092150446598609,
+      "bracket": [
+        0.0,
+        0.133
+      ],
+      "endpoint_entropy_differences": [
+        0.06603815929544865,
+        -0.09530913350282755
+      ],
+      "entangled_weights": [
+        0.54,
+        0.17999999999999997,
+        0.14,
+        0.14
+      ],
+      "separable_weights": [
+        0.46,
+        0.25999999999999995,
+        0.232150446598609,
+        0.04784955340139101
+      ],
+      "feature_max_abs_difference": 4.440892098500626e-16,
+      "entangled_pt_min": -0.04000000000000003,
+      "separable_pt_min": 0.03999999999999998
+    },
+    {
+      "pair_sum": 0.76,
+      "margin": 0.01,
+      "t": 0.03925706907465465,
+      "bracket": [
+        0.0,
+        0.11399999999999999
+      ],
+      "endpoint_entropy_differences": [
+        0.013082129011080523,
+        -0.12521555053029876
+      ],
+      "entangled_weights": [
+        0.51,
+        0.25,
+        0.12,
+        0.12
+      ],
+      "separable_weights": [
+        0.49,
+        0.27,
+        0.15925706907465464,
+        0.08074293092534535
+      ],
+      "feature_max_abs_difference": 4.440892098500626e-16,
+      "entangled_pt_min": -0.010000000000000023,
+      "separable_pt_min": 0.010000000000000033
+    },
+    {
+      "pair_sum": 0.76,
+      "margin": 0.02,
+      "t": 0.05501131241261643,
+      "bracket": [
+        0.0,
+        0.11399999999999999
+      ],
+      "endpoint_entropy_differences": [
+        0.026185904861004694,
+        -0.11211177468037459
+      ],
+      "entangled_weights": [
+        0.52,
+        0.24000000000000002,
+        0.12,
+        0.12
+      ],
+      "separable_weights": [
+        0.48,
+        0.28,
+        0.17501131241261642,
+        0.06498868758738358
+      ],
+      "feature_max_abs_difference": 4.440892098500626e-16,
+      "entangled_pt_min": -0.01999999999999995,
+      "separable_pt_min": 0.020000000000000018
+    },
+    {
+      "pair_sum": 0.76,
+      "margin": 0.03,
+      "t": 0.06675231441920193,
+      "bracket": [
+        0.0,
+        0.11399999999999999
+      ],
+      "endpoint_entropy_differences": [
+        0.0393332203465242,
+        -0.09896445919485508
+      ],
+      "entangled_weights": [
+        0.53,
+        0.23,
+        0.12,
+        0.12
+      ],
+      "separable_weights": [
+        0.47,
+        0.29000000000000004,
+        0.18675231441920193,
+        0.053247685580798065
+      ],
+      "feature_max_abs_difference": 0.0,
+      "entangled_pt_min": -0.029999999999999985,
+      "separable_pt_min": 0.030000000000000044
+    },
+    {
+      "pair_sum": 0.76,
+      "margin": 0.04,
+      "t": 0.07635338311946495,
+      "bracket": [
+        0.0,
+        0.11399999999999999
+      ],
+      "endpoint_entropy_differences": [
+        0.052546467999907476,
+        -0.08575121154147203
+      ],
+      "entangled_weights": [
+        0.54,
+        0.22,
+        0.12,
+        0.12
+      ],
+      "separable_weights": [
+        0.46,
+        0.3,
+        0.19635338311946493,
+        0.04364661688053505
+      ],
+      "feature_max_abs_difference": 2.220446049250313e-16,
+      "entangled_pt_min": -0.039999999999999966,
+      "separable_pt_min": 0.03999999999999995
+    },
+    {
+      "pair_sum": 0.8,
+      "margin": 0.01,
+      "t": 0.031691667769663846,
+      "bracket": [
+        0.0,
+        0.09499999999999997
+      ],
+      "endpoint_entropy_differences": [
+        0.010218883920881217,
+        -0.10502918236360159
+      ],
+      "entangled_weights": [
+        0.51,
+        0.29000000000000004,
+        0.09999999999999998,
+        0.09999999999999998
+      ],
+      "separable_weights": [
+        0.49,
+        0.31000000000000005,
+        0.13169166776966382,
+        0.06830833223033614
+      ],
+      "feature_max_abs_difference": 2.220446049250313e-16,
+      "entangled_pt_min": -0.010000000000000064,
+      "separable_pt_min": 0.010000000000000037
+    },
+    {
+      "pair_sum": 0.8,
+      "margin": 0.02,
+      "t": 0.044435061433589995,
+      "bracket": [
+        0.0,
+        0.09499999999999997
+      ],
+      "endpoint_entropy_differences": [
+        0.02045202237969912,
+        -0.09479604390478347
+      ],
+      "entangled_weights": [
+        0.52,
+        0.28,
+        0.09999999999999998,
+        0.09999999999999998
+      ],
+      "separable_weights": [
+        0.48,
+        0.32000000000000006,
+        0.14443506143358997,
+        0.05556493856640998
+      ],
+      "feature_max_abs_difference": 2.220446049250313e-16,
+      "entangled_pt_min": -0.020000000000000004,
+      "separable_pt_min": 0.020000000000000018
+    },
+    {
+      "pair_sum": 0.8,
+      "margin": 0.03,
+      "t": 0.05395001025934842,
+      "bracket": [
+        0.0,
+        0.09499999999999997
+      ],
+      "endpoint_entropy_differences": [
+        0.03071379991612755,
+        -0.08453426636835504
+      ],
+      "entangled_weights": [
+        0.53,
+        0.27,
+        0.09999999999999998,
+        0.09999999999999998
+      ],
+      "separable_weights": [
+        0.47,
+        0.33000000000000007,
+        0.1539500102593484,
+        0.04604998974065156
+      ],
+      "feature_max_abs_difference": 2.220446049250313e-16,
+      "entangled_pt_min": -0.03000000000000004,
+      "separable_pt_min": 0.030000000000000054
+    },
+    {
+      "pair_sum": 0.8,
+      "margin": 0.04,
+      "t": 0.06174688601010791,
+      "bracket": [
+        0.0,
+        0.09499999999999997
+      ],
+      "endpoint_entropy_differences": [
+        0.04101886427581469,
+        -0.0742292020086679
+      ],
+      "entangled_weights": [
+        0.54,
+        0.26000000000000006,
+        0.09999999999999998,
+        0.09999999999999998
+      ],
+      "separable_weights": [
+        0.46,
+        0.34,
+        0.1617468860101079,
+        0.03825311398989207
+      ],
+      "feature_max_abs_difference": 2.220446049250313e-16,
+      "entangled_pt_min": -0.04000000000000001,
+      "separable_pt_min": 0.040000000000000015
+    }
+  ],
+  "qutip_checks": [
+    {
+      "phase": 0,
+      "labels_entangled_then_separable": [
+        1,
+        0
+      ],
+      "feature_max_abs_difference": 4.440892098500626e-16
+    },
+    {
+      "phase": 0.37,
+      "labels_entangled_then_separable": [
+        1,
+        0
+      ],
+      "feature_max_abs_difference": 2.220446049250313e-16
+    },
+    {
+      "phase": 1.5707963267948966,
+      "labels_entangled_then_separable": [
+        1,
+        0
+      ],
+      "feature_max_abs_difference": 4.440892098500626e-16
+    },
+    {
+      "phase": 3.141592653589793,
+      "labels_entangled_then_separable": [
+        1,
+        0
+      ],
+      "feature_max_abs_difference": 4.440892098500626e-16
+    }
+  ]
+}
